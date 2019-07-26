@@ -15,7 +15,7 @@ spring:
     password: root
     max-idle: 10
     min-idle: 5
-    test-on-borrow: false
+    test-on-borrow: true
     time-between-eviction-runs-millis: 18800
     test-while-idle: true
     validation-query: SELECT 1
