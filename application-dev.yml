@@ -26,11 +26,13 @@ spring:
     port: 6379
     password: x19961010
 
-  rabbitmq:
-    host: 127.0.0.1
-    port: 5672
-    username: guest
-    password: guest
+  #rabbitmq:
+    #host: 127.0.0.1
+    #port: 5672
+    #username: guest
+    #password: guest
+    
+    
   zipkin: 
     base-url: http://localhost:5001
 redis:
