@@ -29,8 +29,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 15672
-    username: admin
-    password: admin
+    username: guest
+    password: guest
     
   zipkin: 
     base-url: http://127.0.0.1:5001
