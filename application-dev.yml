@@ -17,9 +17,9 @@ spring:
     hikari:
       minimum-idle: 0
   redis:
-    host: 192.168.77.128
+    host: 127.0.0.1
     port: 6379
-    password: gszh8899
+    password:
     timeout: 10000
     lettuce:
       pool:
