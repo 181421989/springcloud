@@ -1,7 +1,7 @@
 zipkin:   
   collector:
     rabbitmq:
-      addresses: panda-rabbitmq
+      addresses: ipnsp-rabbitmq
       port: 5672
       username: admin
       password: admin
