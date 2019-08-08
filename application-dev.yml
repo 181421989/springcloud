@@ -40,7 +40,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: panda-auth,panda-user-service
+    clients: ipnsp-auth,ipnsp-user-service
   Httpclient:
     enabled: true
   OkHttp:
